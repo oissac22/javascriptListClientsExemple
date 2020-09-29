@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type='module' src="js/main.js"></script>
+    <link rel="stylesheet" href="css/main.css"></link>
+</head>
+<body>
+    <div id='container'>
+        <div id='menu'>
+            <input placeholder="SEARCH" style='flex:1;' id='search' />
+        </div>
+        <div id='list'>
+            <table>
+                <thead>
+                    <tr>
+                        <th>id</th>
+                        <th>name</th>
+                        <th>born</th>
+                        <th>&nbsp;</th>
+                    </tr>
+                </thead>
+                <tbody id='userslist'></tbody>
+            </table>
+            <form class="insert" id='insert'>
+                <input style='flex:1;' placeholder="NAME" id='insert_name' autofocus='true' />
+                <input placeholder="IDADE" style='width:70px' type='number' id='insert_idade' />
+                <button>ADD</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
